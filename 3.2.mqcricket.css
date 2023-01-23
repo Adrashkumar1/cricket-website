@@ -1,0 +1,138 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+/* header part includes logo and navigation menu */
+header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#c75f5f; 
+}
+#image
+{
+   /* margin: 2px; */
+}
+#image img
+{
+    height: 70px;
+    width: 70px;
+    border-radius: 30px;  
+    display: inline-block;
+    margin: auto; 
+}
+header ul
+{
+    display: flex;
+    flex-direction: column;
+}
+header ul li
+{
+    list-style: none;
+}
+header ul li a
+{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: white;
+    display: block;
+    border-radius: 10px;
+    font-size: 0.7rem;
+}
+header ul li a:hover
+{
+    background-color: white;
+    color: black;
+}
+
+#imageone
+{
+}
+#imageone img
+{
+    height: 50vh;
+    width: 100vw;
+}
+#imageone marquee
+{
+    background-color: black;
+    font-style: bold;
+    padding: 2px 1px;
+    color: white;
+    margin-top: 0%;
+}
+#content
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+#login
+{
+    margin: 5px 5px;
+    background-color: antiquewhite;
+    padding: 10px 25px;
+    height: 155px;
+    width: 200px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 1rem;
+}
+#login input
+{
+    display: block;
+    padding: 4px 8px;
+    text-align: center;
+}
+#text
+{
+    border: 2px solid black;
+    background-color:#e7e3ee;
+    padding: 26px 25px;
+    margin: 6px 15px;
+    text-align: center;
+    font-size: 1rem;
+}
+#text p
+{
+    text-align: center;
+}
+.hof
+{
+    display: flex;
+    border: 2px solid black;
+    margin: 15px 0px;
+    background: url('../project3cricket/hof.jpg') no-repeat center center/cover;
+    opacity: 0.9;
+    height: auto;
+    flex-wrap: wrap;
+}
+.box img
+{
+    height: 70px;
+    width: 49px;
+    border-radius: 27%;
+    padding: 8px 32px;
+    margin-left: 10px;
+}
+footer
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer b
+{
+    padding: 4px 4px;
+    font-size: 1rem;
+}
+/* utility classes */
+.btn
+{
+    padding: 4px 6px;
+    margin:10px ;
+    border-radius: 10px;
+    background-color: #d99b9b;
+}
